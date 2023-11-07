@@ -7,4 +7,8 @@ export class AppService {
   getHello(name): HelloMessage {
     return {hello: `${name}!`}
   }
+
+  getflex(): HelloMessage {
+    return {hello: `flex!`}
+  }
 }
